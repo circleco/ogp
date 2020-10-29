@@ -1,7 +1,7 @@
 require 'oga'
 require 'ostruct'
 
-REQUIRED_ATTRIBUTES = %w(title type image url).freeze
+REQUIRED_ATTRIBUTES = %w(title image url).freeze
 
 module OGP
   class OpenGraph
